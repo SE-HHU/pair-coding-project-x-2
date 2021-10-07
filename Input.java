@@ -2,9 +2,9 @@ import java.io.*;
 import java.util.LinkedList;
 public class Input {
     public static void main(String[] args) throws IOException {
-        File fileQ=new File(new File("").getAbsoluteFile()+"\\Exercises.txt");
-        File fileA=new File(new File("").getAbsoluteFile()+"\\Answers.txt");
-       FileRepeat(fileQ);
+//         File fileQ=new File(new File("").getAbsoluteFile()+"\\Exercises.txt");
+//         File fileA=new File(new File("").getAbsoluteFile()+"\\Answers.txt");
+//        FileRepeat(fileQ);
     }
     //批改读入的文件和答案，并返回一个存储对错的链表
     public  static LinkedList<Boolean> Correct(File fileQ,File fileA) throws IOException {
