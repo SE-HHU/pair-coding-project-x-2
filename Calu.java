@@ -11,16 +11,6 @@ public class Calu {
     public Calu(String one, String two, char symbol) {
         switch (symbol) {
             case '+', '*' -> {
-//                if (!one.contains("/")&&!two.contains("/")){
-//                    if (Integer.parseInt(one) >= Integer.parseInt(two)) {
-//                        this.one = one;
-//                        this.two = two;
-//                    } else {
-//                        this.one = two;
-//                        this.two = one;
-//                    }
-//                }
-//                else {
                     if (one.compareTo(two)<0){
                         this.one=two;
                         this.two=one;
@@ -30,10 +20,7 @@ public class Calu {
                         this.two=two;
                     }
                 this.symbol = symbol;
-//                }
-//                this.symbol = symbol;
             }
-            //                    if (Integer.parseInt(one) >=Integer.parseInt(two)) {
             case '-', '÷' -> {
                 this.one = one;
                 this.two = two;
